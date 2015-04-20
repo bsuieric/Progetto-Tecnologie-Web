@@ -1,0 +1,153 @@
+#breadcumbs > h2 {
+color:#FFF;
+text-indent:10px;
+font-size:16px;
+}
+body {
+background-color:grey;
+height:100%;
+margin:0;
+width:100%;
+}
+div#header{
+background-color:#000;
+overflow: hidden;
+color:#fff;
+}
+div#siteTitle > h1 {
+font-size:25px;
+margin:0;
+}
+span#subtitle {
+display:table;
+width:100%;
+font-size:8px;
+text-align:center;
+}
+a:visited{
+color:grey;
+font-weight:bolder;
+}
+a.actual_section {
+background-color:#FFF;
+color:#000;
+cursor:default;
+font-size:1.5em;
+pointer-events:none;
+}
+a.not_actual_section:hover {
+color:#FFF;
+text-shadow:0 0 2px #FFF;
+}
+@media print {
+
+}
+@media only screen and (max-width:499px) {
+#header {
+display:block;
+text-align:center;
+}
+#header > img {
+display:none;
+}
+#nav {
+display:inline-block;
+width:100%;
+}
+#nav > ul {
+padding-left:0;
+text-align:left;
+width:100%;
+}
+#nav > ul > li {
+display:block;
+margin:5px 0 5px 10px;
+width:100%;
+}
+#nav > ul > li > a:link {
+color:#FFF;
+letter-spacing:1px;
+text-decoration:none;
+}
+}
+@media only screen and (min-width:500px) {
+#header {
+display:inline-block;
+height:124px;
+text-align:center;
+width:100%;
+}
+#header > img {
+border-radius:5px;
+display:inline-block;
+height:45px;
+width:45px;
+}
+#siteTitle {
+display:inline-block;
+height:45px;
+}
+#siteTitle > h1 {
+display:table;
+}
+#nav {
+display:block;
+float:right;
+height:75px;
+width:100%;
+}
+#nav > ul {
+padding-left:0;
+text-align:center;
+width:100%;
+}
+#nav > ul > li {
+display:inline-block;
+margin:0 20px;
+}
+#nav > ul > li > a:link {
+color:#FFF;
+letter-spacing:1px;
+text-decoration:none;
+}
+}
+@media only screen and (min-width:861px) {
+#header {
+display:block;
+height:75px;
+text-align:left;
+}
+#header > img {
+border-radius:0;
+display:inline-block;
+height:75px;
+width:75px;
+}
+div#siteTitle {
+display:inline-block;
+height:75px;
+}
+div#siteTitle > h1 {
+display:table;
+margin-top:15px;
+}
+#nav {
+display:inline-block;
+float:right;
+height:75px;
+width:63%;
+}
+#nav > ul {
+width:100%;
+text-align: right;
+}
+#nav > ul > li {
+display:inline-block;
+margin:10px 20px;
+}
+#nav > ul > li > a:link {
+color:#FFF;
+letter-spacing:1px;
+text-decoration:none;
+}
+}

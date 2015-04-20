@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<utenti xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://localhost utenti.xsd">
+    <utente username="admin">
+        <nome>Bogdan</nome>
+        <email>bogdann@hotmail.it</email>
+        <password>admin</password>
+        <tipo>admin</tipo>
+    </utente>
+    <utente username="scampagn">
+        <nome>Simone</nome>
+        <email>fransim@hotmail.it</email>
+        <password>simone</password>
+        <tipo>user</tipo>
+    </utente>
+</utenti>

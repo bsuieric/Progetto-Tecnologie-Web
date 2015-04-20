@@ -1,0 +1,27 @@
+#footer {
+background-color:#000;
+bottom:0;
+color:#FFF;
+display:block;
+font-style:italic;
+overflow:hidden;
+text-align:center;
+width:100%;
+}
+
+#footer > p > a:hover {
+text-shadow:0 0 3px #FFF;
+}
+
+#footer > p > a {
+color:#FFF;
+text-decoration:underline;
+}
+
+#footer > p {
+margin:10px;
+}
+
+#footer > p + p {
+margin-top:20px;
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://localhost ideeAccept.xsd">
+<idee>
+<idea id="4"><nome>ciao</nome><email>ciao</email><titolo>ciao</titolo><telefono>ciao</telefono><testo>ciao</testo><discussione/></idea></idee></root>
